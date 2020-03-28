@@ -1,0 +1,19 @@
+html:root {
+    --background: #282828;
+}
+
+body, html, div, main, canvas {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body, html, main {
+    background-color: var(--background);
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    height: 100%;
+}
